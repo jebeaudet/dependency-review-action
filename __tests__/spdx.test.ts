@@ -5,7 +5,7 @@ describe('satisfiesAny', () => {
   const units = [
     {
       candidate: 'MIT',
-      licenses: ['MIT'],
+      licenses: ['MIT OR Apache-2.0'],
       expected: true
     },
     {
